@@ -1,4 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
+<<<<<<< HEAD
 import { StyleSheet, Text, View, Button, TextInput, ListView, FlatList} from 'react-native';
 import { useState } from 'react';
 import { estiloTextos } from './misEstilos';
@@ -62,6 +63,16 @@ export default function App() {
         onPress={() => setContador(contador + 1)}
       />*/}
 
+=======
+import { StyleSheet, Text, View } from 'react-native';
+import { estiloTextos } from './misEstilos';
+
+export default function App() {
+  return (
+    <View style={styles.container}>
+      <Text>Open up App.js to start working on your app!</Text>
+      <Text style={estiloTextos.texto}>Hola, mundo</Text>
+>>>>>>> 77f2e5b01427af5825ee7f95e92b0021f497446a
       <StatusBar style="auto" />
     </View>
   );
@@ -70,6 +81,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+<<<<<<< HEAD
     backgroundColor: '#000000ff',
     alignItems: 'center',
     justifyContent: 'center',
@@ -81,4 +93,10 @@ const styles = StyleSheet.create({
     marginVertical: 10,
     borderRadius: 5,
   },
+=======
+    backgroundColor: '#000',
+    alignItems: 'center',
+    justifyContent: 'center',
+  }
+>>>>>>> 77f2e5b01427af5825ee7f95e92b0021f497446a
 });
